@@ -11,7 +11,7 @@ const fibonacci = (suku) => {
       deret[i] = deret[i - 1] + deret[i - 2];
     }
   }
-  return console.log(deret);
+  return console.log(...deret);
 };
 
 fibonacci(11);
